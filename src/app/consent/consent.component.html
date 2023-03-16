@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="panel">
+      <div class="content">
+        <header>        
+          <h1>Consent Notice</h1>
+        </header>
+        <main>
+          <p>
+            This wonderful application requires your consent before you can view the next page.
+          </p>
+          <label>
+            <input type="checkbox" [(ngModel)]="consentGiven" (ngModelChange)="onConsentChanged()">I agree to the terms and conditions
+          </label>
+          <button [disabled]="!consentGiven" (click)="onNext()" aria-label="Navigate to next page">Next</button>
+        </main>
+      </div>
+    </div>
+</div>
+  
