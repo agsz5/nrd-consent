@@ -1,5 +1,6 @@
-# nrd-consent -  A simple single page application that requires user to give consent before accessing the rest of the application (next page)
+# nrd-consent -  Consent Application
 
+A simple single page application that requires a consent before accessing the rest of the application (next page).
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
 ## Running the application
